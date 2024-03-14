@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=Xc6G3oV24yE
+
+writing-mode:vertical-lr
+gap:20px // to make space between box
+transform:scaleX(-1) // flip the image
+
+scroll-snap-type: x mandatory
+scroll-snap-align:center
+
+// to make resizable box
+overflow:auto;
+resize:both;
+
+// to make text in gradient color
+background: linear-gradient(45deg, #ec1313, #18d815);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
