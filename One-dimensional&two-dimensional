@@ -1,1 +1,21 @@
+what is one dimention layout and two dimention layout in css
+
+1. one-dimensional layouts (either rows or columns) / Flexbox Grid / Flexible Grid
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1; /* Equal width for all items */
+}
+
+2. CSS Grid (Two-Dimensional Grid)
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px;
+}
+.item {
+  background: lightblue;
+}
 
